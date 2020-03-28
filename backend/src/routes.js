@@ -20,9 +20,9 @@ routes.post('/ongs', OngController.create);
 /**
  * Incidents routes
  */
-routes.get('/insidents', IncidentController.index);
-routes.post('/insidents', IncidentController.create);
-routes.delete('/insidents/:id', IncidentController.delete);
+routes.get('/incidents', IncidentController.index);
+routes.post('/incidents', IncidentController.create);
+routes.delete('/incidents/:id', IncidentController.delete);
 
 /**
  * Profiles routes
